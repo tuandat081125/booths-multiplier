@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sim_1/new/booths_tb.sv,1781792593,systemVerilog,,,,booths_tb,,uvm,../../../../../../../../Program/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_control.sv,1781765283,systemVerilog,,F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_datapath.sv,,Controlpath,,uvm,../../../../../../../../Program/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_datapath.sv,1779981992,systemVerilog,,F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_module.sv,,Datapath,,uvm,../../../../../../../../Program/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_module.sv,1781783712,systemVerilog,,F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_top.sv,,ALU;REG1;REG2;REG3;REG4;cnt,,uvm,../../../../../../../../Program/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sources_1/new/booths_top.sv,1781764983,systemVerilog,,F:/Embedded/Vivado/KMA/booths_multiplication/booths_multiplication.srcs/sim_1/new/booths_tb.sv,,booths_top,,uvm,../../../../../../../../Program/Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
