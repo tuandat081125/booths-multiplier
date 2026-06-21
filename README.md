@@ -37,9 +37,7 @@ Verification:<br>
 A self-checking testbench compares the DUT output against the reference result: expected = $signed(M) * $signed(Q)<br>
 For each completed multiplication: if(data_out !== expected)<br>
 errors are recorded automatically into: error_log.txt<br>
-error_log.txt
 The simulation iterates through all 8-bit operand combinations and reports the total number of mismatches.
 
 Tools: 
-SystemVerilog
-Xilinx Vivado Simulato
+SystemVerilog, Xilinx Vivado Simulation
