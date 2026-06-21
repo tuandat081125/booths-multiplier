@@ -17,7 +17,18 @@ Evaluate Booth encoding bits {Q0, Q-1},
 Select ADD or SUB operation,
 Perform arithmetic shift,
 Control iteration counter,
-Generate completion signal (done),
+Generate completion signal (done)
+
+State	Function:<br>
+S0	| Reset / Initialize<br>
+S1	| Load Multiplicand<br>
+S2	| Load Multiplier<br>
+S3	| Booth Decision<br>
+S4	| Add Multiplicand<br>
+S5	| Subtract Multiplicand<br>
+S6	| Arithmetic Shift<br>
+S7	| Loop Control<br>
+S8	| Done<br>
 
 Data Path:
 The datapath contains:
