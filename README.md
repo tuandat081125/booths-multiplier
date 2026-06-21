@@ -19,6 +19,7 @@ Perform arithmetic shift,
 Control iteration counter,
 Generate completion signal (done)
 
+FSM States:
 State	Function:<br>
 S0	| Reset / Initialize<br>
 S1	| Load Multiplicand<br>
