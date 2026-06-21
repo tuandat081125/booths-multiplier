@@ -7,38 +7,36 @@ A self-checking testbench is included to verify functionality across all possibl
 
 Architecture:
 
-Control Path:
-The control unit is implemented as a Finite State Machine (FSM).
-Main responsibilities:
-Load multiplicand (M)
-Load multiplier (Q)
-Initialize accumulator (A)
-Evaluate Booth encoding bits {Q0, Q-1}
-Select ADD or SUB operation
-Perform arithmetic shift
-Control iteration counter
-Generate completion signal (done)
+Control Path:<br>
+The control unit is implemented as a Finite State Machine (FSM).<br>
+Main responsibilities:<br>
+Load multiplicand (M),
+Load multiplier (Q),
+Initialize accumulator (A),
+Evaluate Booth encoding bits {Q0, Q-1},
+Select ADD or SUB operation,
+Perform arithmetic shift,
+Control iteration counter,
+Generate completion signal (done),
 
 Data Path:
 The datapath contains:
-+, Accumulator Register (A)
-+, Multiplier Register (Q)
-+, Booth Bit Register (Q-1)
-+, Multiplicand Register (M)
-+, Arithmetic Logic Unit (ALU)
-+, Iteration Counter
++, Accumulator Register (A)<br>
++, Multiplier Register (Q)<br>
++, Booth Bit Register (Q-1)<br>
++, Multiplicand Register (M)<br>
++, Arithmetic Logic Unit (ALU)<br>
++, Iteration Counter<br>
 
-The ALU performs:
-Signed Addition
-Signed Subtraction
-Arithmetic right shifting is implemented across: (A, Q, Q-1) to preserve sign extension during multiplication.
+The ALU performs:<br>
+Signed Addition<br>
+Signed Subtraction<br>
+Arithmetic right shifting is implemented across: (A, Q, Q-1) to preserve sign extension during multiplication.<br>
 
-Verification:
-A self-checking testbench compares the DUT output against the reference result:
-expected = $signed(M) * $signed(Q);
-For each completed multiplication:
-if(data_out !== expected)
-errors are recorded automatically into:
+Verification:<br>
+A self-checking testbench compares the DUT output against the reference result: expected = $signed(M) * $signed(Q)<br>
+For each completed multiplication: if(data_out !== expected)<br>
+errors are recorded automatically into: error_log.txt<br>
 error_log.txt
 The simulation iterates through all 8-bit operand combinations and reports the total number of mismatches.
 
